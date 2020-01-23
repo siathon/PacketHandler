@@ -8,6 +8,7 @@
 
 extern EventQueue ev_queue;
 extern RawSerial serial;
+extern RawSerial pc;
 extern void onPacket(char* packet);
 
 class PacketHandler{
